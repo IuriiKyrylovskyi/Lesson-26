@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  position: relative;
+  width: 100%;
+  color: #000;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body.lock {
+  overflow: hidden;
+}
+@media (max-width: 767.98px) {
+  body.lock {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+  }
+}
+
+input,
+button,
+textarea {
+  font-family: "Mulish", sans-serif;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  font-size: 16px;
+  color: #11223f;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+._container {
+  width: 81%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+@media screen and (min-width: 1124px) {
+  ._container {
+    max-width: 1144px;
+  }
+}
+
+@media screen and (min-width: 1124px) {
+  section {
+    margin: 120px 0 0;
+  }
+}
+
+.btn {
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  background: #1968fc;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  padding: 0 25px;
+}
+.btn._wide {
+  max-width: 300px;
+}
+.btn ._desk {
+  display: none;
+}
+@media screen and (min-width: 1124px) {
+  .btn ._desk {
+    display: inline;
+  }
+}
+.btn ._mob {
+  display: inline;
+}
+@media screen and (min-width: 1124px) {
+  .btn ._mob {
+    display: none;
+  }
+}
+
+.bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media screen and (min-width: 1124px) {
+  .bg {
+    display: block;
+  }
+}
+
+.bg-mob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media screen and (min-width: 1124px) {
+  .bg-mob {
+    display: none;
+  }
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header {
+  padding: 40px 0;
+}
+@media screen and (min-width: 1124px) {
+  .page-header {
+    padding: 30px 0;
+  }
+}
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 81%;
+}
+@media screen and (min-width: 1124px) {
+  .page-header__container {
+    max-width: 1144px;
+  }
+}
+.page-header__logo-box {
+  display: flex;
+  align-items: center;
+  color: #1968fc;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.page-header__nav-box {
+  display: none;
+  align-items: center;
+}
+@media screen and (min-width: 1124px) {
+  .page-header__nav-box {
+    display: flex;
+  }
+}
+.page-header__nav-link {
+  display: inline-block;
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.page-header__upload-btn {
+  margin-left: 15px;
+}
+
+.logo__img {
+  width: 50px;
+  height: 50px;
+}
+.logo__text {
+  margin-left: 20px;
+}
+
+.headline__row {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1124px) {
+  .headline__row {
+    flex-direction: row;
+    margin-bottom: -165px;
+  }
+}
+.headline__column {
+  margin: 40px 0;
+}
+.headline__column:nth-child(2) {
+  margin: 40px -10.25%;
+}
+@media screen and (min-width: 1124px) {
+  .headline__column {
+    margin: 0;
+  }
+  .headline__column:nth-child(2) {
+    margin: 55px 0 0 -7.5%;
+  }
+}
+.headline__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  max-width: 600px;
+}
+.headline__description {
+  font-size: 20px;
+  line-height: 40px;
+  margin: 20px 0 40px;
+  max-width: 600px;
+}
+.headline__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.headline__mob {
+  width: 100%;
+  display: block;
+  margin-top: -80px;
+}
+@media screen and (min-width: 1124px) {
+  .headline__mob {
+    display: none;
+  }
+}
+.headline__mob-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 30px 60px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1124px) {
+  .reviews__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1124px) {
+  .reviews__row-extra {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+}
+@media screen and (min-width: 1124px) {
+  .reviews__column {
+    flex: 0 0 540px;
+    min-width: 540px;
+  }
+}
+
+.review {
+  background: #ffffff;
+  padding: 40px;
+  margin: 50px -20px;
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+}
+@media screen and (min-width: 1124px) {
+  .review {
+    margin: 0px 20px 60px;
+  }
+}
+.review__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.review__img {
+  max-width: 100%;
+}
+.review__box-info {
+  flex: 1 0 auto;
+  margin: 10px 10px 10px 20px;
+}
+.review__name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+.review__position {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  color: rgba(25, 104, 250, 0.8);
+}
+.review__box-decoration {
+  min-height: 100%;
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-end;
+}
+.review__text {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
