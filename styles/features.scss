@@ -1,0 +1,68 @@
+.features {
+	margin-top: 100px;
+	&__container {
+	}
+
+	&__list {
+			@include br{
+			min-height: 370px;
+		}
+	}
+	.cascade__title {
+		margin-bottom: 30px;
+	}
+}
+.cascade {
+	&__title {
+	}
+
+	&__row {
+	}
+
+	&__column {
+	}
+}
+
+.feature {
+	box-shadow: $bs;
+	margin: 30px 20px;
+	position: relative;
+	@include br{
+		flex: 0 0 320px;
+		width: 320px;
+		}
+	&__top-box {
+		display: flex;
+		align-items: center;
+		background: #f3f7ff;
+	}
+
+	&__img {
+		width: 80px;
+		height: 80px;
+		@include br{
+			width: 120px;
+			height: 120px;
+		}
+	}
+
+	&__info {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+		padding: 5px 20px;
+	}
+
+	&__text {
+		display: flex;
+		align-items: center;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 30px;
+		padding: 30px 40px;
+		background-color: #fff;
+		@include br{
+			padding: 40px;
+		}
+	}
+}

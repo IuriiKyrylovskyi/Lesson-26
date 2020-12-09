@@ -4,7 +4,7 @@
 // 	}
 // }
 @mixin br {
-	@media screen and (min-width: 1124px) {
+	@media screen and (min-width: 1024px) {
 		@content;
 	}
 }
