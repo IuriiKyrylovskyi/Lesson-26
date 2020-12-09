@@ -1,0 +1,50 @@
+.consultation {
+	background-color: #1968fc;
+	background-image: none;
+	background-size: 0;
+	padding: 60px 0;
+	@include br {
+		background-size: initial;
+		background-repeat: no-repeat;
+		background-position: right 20px;
+		padding: 80px 0;
+		margin-top: 0;
+	}
+
+	&__container {
+	}
+
+	&__title {
+		&:after {
+			content: "";
+			background: #fff;
+		}
+	}
+
+	&__description {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 40px;
+		color: #ffffff;
+		margin: 38px 0 40px;
+		@include br {
+			max-width: 600px;
+			margin: 60px 0 40px;
+		}
+	}
+
+	&__button {
+		width: 320px;
+		flex: 0 1 320px;
+		background: #ffffff;
+		// box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.4);
+		color: #1968fc;
+	}
+}
+
+._blue {
+	color: #ffffff;
+}
+
+._white {
+}
