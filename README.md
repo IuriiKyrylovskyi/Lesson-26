@@ -3,7 +3,7 @@ Responsive-Landing-Page
 https://iuriikyrylovskyi.github.io/Vangoux-Landing-page
 
 
-Layout supports all mobile and desktop versions from 410px
+Layout supports all mobile and desktop versions
 
 
 The tech stack is:
