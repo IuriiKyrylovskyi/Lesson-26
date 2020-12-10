@@ -1,8 +1,10 @@
 Responsive-Landing-Page
 
-https://iuriikyrylovskyi.github.io/Responsive-Landing-Page---Vangoux
+https://iuriikyrylovskyi.github.io/Vangoux-Landing-page
+
 
 Layout supports all mobile and desktop versions from 410px
+
 
 The tech stack is:
 
@@ -16,6 +18,6 @@ Sass (Scss)
 
 BEM methodology
 
-Author:
 
+Author:
 Iurii Kyrylovskyi
