@@ -738,6 +738,7 @@ body {
 }
 .consultation__button {
   width: 320px;
+  max-width: 100%;
   flex: 0 1 320px;
   background: #ffffff;
   color: #1968fc;
