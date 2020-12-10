@@ -1,6 +1,6 @@
 Responsive-Landing-Page
 
-https://iuriikyrylovskyi.github.io/Price-page/
+https://iuriikyrylovskyi.github.io/Responsive-Landing-Page---Vangoux
 
 Layout supports all mobile and desktop versions from 410px
 
