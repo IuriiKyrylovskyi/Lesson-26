@@ -1,31 +1,17 @@
 @import "variables";
-@import "mixins";
 @import "null";
 @import "breakpoints";
-
-//<Подключаем шрифты>=========================================================
-
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
-//</ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>==============================================
 body {
 	font-size: 16px;
 	color: #11223f;
 }
-//<ОБОЛОЧКА>========================================
 .wrapper {
 	width: 100%;
 	min-height: 100%;
-	// overflow: hidden;
-	// display: flex;
-	// flex-direction: column;
 	position: relative;
 }
-
-//</ОБОЛОЧКА>==================================================================
-
-//<ОСНОВНАЯ СЕТКА>====================================
 ._container {
-	// max-width: $mw + px;
 	width: 81%;
 	margin: 0 auto;
 	padding: 0 10px;
@@ -33,18 +19,8 @@ body {
 		width: 100%;
 		max-width: 1140px;
 	}
-	// @media (max-width: $md1+px) {
-	// 	max-width: 970px;
-	// }
-	// @media (max-width: $md2+px) {
-	// 	max-width: 750px;
-	// }
-	// @media (max-width: $md3+px) {
-	// 	max-width: none;
-	// }
 }
 section {
-	// margin: 0;
 	@include br {
 		margin: 120px 0 0;
 	}
@@ -81,7 +57,6 @@ section {
 		}
 	}
 }
-// =============================
 
 .bg {
 	display: none;
@@ -113,7 +88,6 @@ section {
 	flex-direction: column;
 }
 
-//</ОСНОВНАЯ СЕТКА>=============================================
 @import "header-page";
 @import "headline";
 @import "reviews";
@@ -124,5 +98,3 @@ section {
 @import "consultation";
 @import "stories";
 @import "page-footer";
-
-//</ОСНОВНОЙ БЛОК>=============================================================

@@ -6,7 +6,6 @@
 	&__container {
 		display: flex;
 		justify-content: space-between;
-		// max-width: 480px;
 		width: 81%;
 		@include br {
 			max-width: 1144px;
@@ -28,9 +27,6 @@
 		@include br {
 			display: flex;
 		}
-	}
-
-	&__navigation {
 	}
 
 	&__nav-link {

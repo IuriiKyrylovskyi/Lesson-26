@@ -53,16 +53,6 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-body.lock {
-  overflow: hidden;
-}
-@media (max-width: 767.98px) {
-  body.lock {
-    width: 100%;
-    position: fixed;
-    overflow: hidden;
-  }
-}
 
 input,
 button,
@@ -295,7 +285,7 @@ body {
   font-size: 40px;
   line-height: 60px;
   letter-spacing: 1px;
-  width: 480px;
+  max-width: 480px;
 }
 @media screen and (min-width: 1024px) {
   .headline__title {
@@ -409,6 +399,7 @@ body {
 .workflow {
   margin-top: 70px;
 }
+
 .cascade__title {
   font-size: 30px;
   line-height: 60px;
@@ -448,6 +439,7 @@ body {
     min-height: 340px;
   }
 }
+
 .workflow-step {
   padding: 40px;
   background-color: #fff;
@@ -613,9 +605,11 @@ body {
 }
 .users__row {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 40px -20px;
 }
+
 ._desk {
   display: none;
 }
@@ -635,7 +629,7 @@ body {
 }
 
 .user {
-  flex: 0 0 calc(50% - 20px);
+  flex: 1 0 calc(50% - 20px);
   padding: 20px;
   margin: 10px;
   background-color: #ffffff;
@@ -680,6 +674,7 @@ body {
     margin: -10px -20px;
   }
 }
+
 .purpose {
   display: flex;
   align-items: center;
@@ -770,6 +765,7 @@ body {
     margin: 60px 0 0 0;
   }
 }
+
 .story-card {
   display: flex;
 }

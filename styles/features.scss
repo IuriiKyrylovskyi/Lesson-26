@@ -1,25 +1,12 @@
 .features {
 	margin-top: 100px;
-	&__container {
-	}
-
-	&__list {
+		&__list {
 		@include br {
 			min-height: 410px;
 		}
 	}
 	.cascade__title {
 		margin-bottom: 30px;
-	}
-}
-.cascade {
-	&__title {
-	}
-
-	&__row {
-	}
-
-	&__column {
 	}
 }
 

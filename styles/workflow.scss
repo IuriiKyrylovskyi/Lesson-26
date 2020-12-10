@@ -1,7 +1,5 @@
 .workflow {
 	margin-top: 70px;
-	&__container {
-	}
 }
 .cascade {
 	&__title {
@@ -38,9 +36,6 @@
 			min-height: 340px;
 		}
 	}
-
-	&__column {
-	}
 }
 .workflow-step {
 	padding: 40px;
@@ -51,7 +46,6 @@
 	@include br {
 		flex: 0 1 320px;
 		width: 320px;
-		// height: 220px;
 		margin: 20px 10px;
 		&:nth-child(1) {
 			align-self: start;
@@ -84,9 +78,6 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-	}
-
-	&__title-box {
 	}
 
 	&__suptitle {

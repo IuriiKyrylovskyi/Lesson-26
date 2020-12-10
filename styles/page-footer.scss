@@ -30,9 +30,6 @@
 		}
 	}
 
-	&__socials {
-	}
-
 	&__img-man {
 		position: absolute;
 		bottom: -20px;
@@ -44,15 +41,9 @@
 	}
 }
 
-.page-header {
-	&__logo-box {
-	}
-}
 .logo {
 	height: 50px;
 	background: rgba(25, 104, 252, 0.05);
-	&__img {
-	}
 
 	&__text {
 		font-weight: 600;
@@ -66,8 +57,8 @@
 	margin-bottom: 20px;
 	margin-top: 20px;
 	@include br {
-	margin-left: 0px;
-		}
+		margin-left: 0px;
+	}
 }
 
 .socials {
@@ -79,8 +70,5 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
-
-	&__link {
 	}
 }
